@@ -9,7 +9,7 @@ const opn = require("opn");
 
 const startUrl = "http://localhost:3000";
 const port = 3000;
-const boardPort = "COM4";
+const boardPort = "/dev/cu.usbmodem2017_2_251";
 
 // pin setup
 const blue = 3;
